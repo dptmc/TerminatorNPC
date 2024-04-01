@@ -1012,7 +1012,6 @@ public class TerminatorTrait extends Trait {
         new BukkitRunnable() {
             @Override
             public void run() {
-                Bukkit.broadcastMessage("Scheduled for tp");
                 targetsSwitchedWorldsLocation = event.getTo().subtract(0.5, 2, 0.5);
                 followThroughDimension = 1;
             }
